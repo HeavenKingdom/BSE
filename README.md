@@ -27,11 +27,11 @@ JdgRes | varchar | | | |
 * Open it in your IDE and run demoApplication
 
 **Some hints**
-* Default port is 8081,u can change this in **application.properties**
+* Default port is **8081**, u can change this in **application.properties**
 * Test upload images by **PostMan**
 
 ### 3. Create folder for picture storage
-* Create a folder has path like **D:\Files\uploadImgs** This folder is used to store ur uploaded pics
+* Create a folder under the following path **D:\Files\uploadImgs** This folder is used to store ur uploaded pics
 * (You can change picture storage path in your project)
 
 ## Introduction
@@ -51,7 +51,7 @@ JdgRes | varchar | | | |
 #### 3. Add record
 * Method:**POST**
 * Url: **localhost:8081/record/addRecord**
-* Decrip: User post an image to the server, server stores this pic to the path **D:\Files\uploadImgs**, generate a new record and insert this record into database
+* Decrip: User posts an image to the server, server stores this pic to the path **D:\Files\uploadImgs**, generate a new record and insert this record into database
 
 **Tools Url**
 * **Postman:** https://www.postman.com/
